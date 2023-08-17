@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="heading">
+        LIBRARY
+    </div>
+    <button class="addBookBtn"></button>
+    <div class="addBookForm hidden">
+        <form action="#" method="post" class="bookForm">
+            <fieldset style="border: solid black;">
+                <legend align="right"><button class="legendBtn"></button></legend>
+                <input type="text"  class="bookTitle" name="Book_Title" placeholder="Book Title"> <br>
+                <input type="text" class="authorName" name="Author_Name" placeholder="Author Title"> <br>
+                <input type="number" class="totalPages" name="Total_Pages" placeholder="Total Pages"> <br>
+                <button type="submit" class="submitBtn" >SUBMIT</button>
+                <button type="reset" class="resetBtn"> RESET</button>
+            </fieldset>
+        </form>
+    </div>
+    <div class="displayContainerMain">
+        <div class="displayContainer"></div>
+    </div>
+</body>
+</html>
+

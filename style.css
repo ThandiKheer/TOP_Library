@@ -1,0 +1,83 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+  }
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color:#829079;
+}
+.heading{
+    font-size: 5rem;
+    font-weight: bold; 
+    font-family: 'Indie Flower', cursive;
+    display: flex;
+    justify-content: center;
+}
+
+
+.hidden {
+    display: none;
+}
+.addBookBtn{
+    background-image: url(img/icons8-plus-button-100.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent; /* Set the background color to transparent */
+    border: none; /* Remove the border */
+    padding: 0; /* Remove padding */
+    width: 100px; /* Set the width of the button to match the image width */
+    height: 100px; /* Set the height of the button to match the image height */
+    cursor: pointer; /* Add a pointer cursor to indicate interactivity */
+    outline: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.addBookBtn:hover{
+    transform: rotate(45deg);
+}
+.addBookForm{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #707e68;
+    padding: 20px;
+    border: 2px solid #6c7965 #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+} 
+
+.legendBtn{
+    background-image: url(img/icons8-plus-button-100.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent; /* Set the background color to transparent */
+    border: none; /* Remove the border */
+    padding: 0; /* Remove padding */
+    width: 50px; /* Set the width of the button to match the image width */
+    height: 50px; /* Set the height of the button to match the image height */
+    cursor: pointer; /* Add a pointer cursor to indicate interactivity */
+    outline: none;
+    transform: rotate(45deg);
+}
+input,
+label,
+.submitBtn,
+.resetBtn{
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.displayContainer{
+    display: flex;
+    flex-wrap: wrap;
+    height: fit-content;
+    width: fit-content;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+
